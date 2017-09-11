@@ -1,0 +1,8 @@
+---
+- hosts: clients
+  become: true
+  tasks:
+    - name: Copy Cirros image on Client node  
+      copy:
+        src: "/home/cca-user/post-deployment/cirros/"
+        dest: "/var/lib/libvirt/images/"

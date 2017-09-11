@@ -1,0 +1,5 @@
+---
+- hosts: mgrs
+  become: true
+  tasks:
+    - command: sudo ceph mgr module enable dashboard

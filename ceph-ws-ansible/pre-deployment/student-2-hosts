@@ -1,0 +1,14 @@
+127.0.0.1 localhost
+10.186.52.26  student-2-keystone.cs89acloud.internal
+10.186.52.83  student-2-client.cs89acloud.internal
+10.186.52.38  student-2-ceph-0.cs89acloud.internal
+10.186.52.25  student-2-ceph-1.cs89acloud.internal
+10.186.52.211 student-2-ceph-2.cs89acloud.internal
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
