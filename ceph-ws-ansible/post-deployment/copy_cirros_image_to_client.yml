@@ -4,5 +4,5 @@
   tasks:
     - name: Copy Cirros image on Client node  
       copy:
-        src: "/home/cca-user/post-deployment/cirros/"
+        src: "cirros/"
         dest: "/var/lib/libvirt/images/"
