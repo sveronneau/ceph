@@ -1,0 +1,12 @@
+---
+- hosts: keystone
+  become: true
+  tasks:
+    - name: Install Keystone pip packages
+      pip:
+        name: "{{ item }}"
+      with_items:
+        - python-swiftclient
+        - python-openstackclient
+        - python-ldap
+        - ldappool
