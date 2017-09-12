@@ -1,26 +1,25 @@
 127.0.0.1 localhost
 #
-10.186.52.223 student-1-keystone.cs89acloud.internal
-10.186.52.181 student-1-client.cs89acloud.internal
-10.186.52.124 student-1-ceph-0.cs89acloud.internal
-10.186.52.138 student-1-ceph-1.cs89acloud.internal
-10.186.52.81  student-1-ceph-2.cs89acloud.internal
+10.186.52.223 student-0-keystone.cs89acloud.internal student-0-keystone
+10.186.52.181 student-0-client.cs89acloud.internal student-0-client
+10.186.52.223 student-1-keystone.cs89acloud.internal student-1-keystone
+10.186.52.181 student-1-client.cs89acloud.internal student-1-client
+10.186.52.223 student-2-keystone.cs89acloud.internal student-2-keystone
+10.186.52.181 student-2-client.cs89acloud.internal student-2-client
+10.186.52.223 student-3-keystone.cs89acloud.internal student-3-keystone
+10.186.52.181 student-3-client.cs89acloud.internal student-3-client
 #
-10.186.52.223 student-2-keystone.cs89acloud.internal
-10.186.52.181 student-2-client.cs89acloud.internal
-10.186.52.124 student-2-ceph-0.cs89acloud.internal
-10.186.52.138 student-2-ceph-1.cs89acloud.internal
-10.186.52.81  student-2-ceph-2.cs89acloud.internal
-#
-10.186.52.223 student-3-keystone.cs89acloud.internal
-10.186.52.181 student-3-client.cs89acloud.internal
-10.186.52.124 student-3-ceph-0.cs89acloud.internal
-10.186.52.138 student-3-ceph-1.cs89acloud.internal
-10.186.52.81  student-3-ceph-2.cs89acloud.internal
-#
-10.186.52.223 student-4-keystone.cs89acloud.internal
-10.186.52.181 student-4-client.cs89acloud.internal
-10.186.52.124 student-4-ceph-0.cs89acloud.internal
-10.186.52.138 student-4-ceph-1.cs89acloud.internal
-10.186.52.81  student-4-ceph-2.cs89acloud.internal
+10.186.52.124 ceph-0.cs89acloud.internal  ceph-0
+10.186.52.138 ceph-1.cs89acloud.internal  ceph-1
+10.186.52.81  ceph-2.cs89acloud.internal  ceph-2
+10.186.52.81  ceph-3.cs89acloud.internal  ceph-3
+10.186.52.81  ceph-4.cs89acloud.internal  ceph-4
+10.186.52.81  ceph-5.cs89acloud.internal  ceph-5
+10.186.52.81  ceph-6.cs89acloud.internal  ceph-6
+10.186.52.81  ceph-7.cs89acloud.internal  ceph-7
+10.186.52.81  ceph-8.cs89acloud.internal  ceph-8
+10.186.52.81  ceph-9.cs89acloud.internal  ceph-9
+10.186.52.81  ceph-10.cs89acloud.internal ceph-10
+10.186.52.81  ceph-11.cs89acloud.internal ceph-11
+10.186.52.81  ceph-12.cs89acloud.internal ceph-12
 #
