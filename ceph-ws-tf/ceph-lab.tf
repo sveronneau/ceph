@@ -19,7 +19,7 @@ resource "cloudca_instance" client-node {
    compute_offering="1vCPU.4GB"
    ssh_key_name="${var.key_name}"
    user_data="${data.template_file.client-cloudinit.rendered}"
-   root_volume_size_in_gb=10
+   root_volume_size_in_gb=15
 }
 
 resource "cloudca_instance" keystone-node {
