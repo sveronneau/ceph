@@ -3,7 +3,7 @@
   become: true
   tasks:
     - copy:
-        src: ./student-hosts
+        src: /etc/hosts
         dest: /etc/hosts
     - copy:
         src: /home/cca-user/.ssh/ceph_ws_students.key
