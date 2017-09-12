@@ -13,7 +13,7 @@ data "template_file" "keystone-cloudinit" {
 resource "cloudca_instance" client-node {
    environment_id="${var.environment_id}"
    count="${var.client_count}"
-   name="student-${count.index}-client"
+   name="ceph-${count.index}"
    network_id="${var.network_id}"
    template="Ubuntu 16.04.02 HVM"
    compute_offering="1vCPU.4GB"
