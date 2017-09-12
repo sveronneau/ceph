@@ -1,0 +1,26 @@
+127.0.0.1 localhost
+#
+10.186.52.223 student-1-keystone.cs89acloud.internal
+10.186.52.181 student-1-client.cs89acloud.internal
+10.186.52.124 student-1-ceph-0.cs89acloud.internal
+10.186.52.138 student-1-ceph-1.cs89acloud.internal
+10.186.52.81  student-1-ceph-2.cs89acloud.internal
+#
+10.186.52.223 student-2-keystone.cs89acloud.internal
+10.186.52.181 student-2-client.cs89acloud.internal
+10.186.52.124 student-2-ceph-0.cs89acloud.internal
+10.186.52.138 student-2-ceph-1.cs89acloud.internal
+10.186.52.81  student-2-ceph-2.cs89acloud.internal
+#
+10.186.52.223 student-3-keystone.cs89acloud.internal
+10.186.52.181 student-3-client.cs89acloud.internal
+10.186.52.124 student-3-ceph-0.cs89acloud.internal
+10.186.52.138 student-3-ceph-1.cs89acloud.internal
+10.186.52.81  student-3-ceph-2.cs89acloud.internal
+#
+10.186.52.223 student-4-keystone.cs89acloud.internal
+10.186.52.181 student-4-client.cs89acloud.internal
+10.186.52.124 student-4-ceph-0.cs89acloud.internal
+10.186.52.138 student-4-ceph-1.cs89acloud.internal
+10.186.52.81  student-4-ceph-2.cs89acloud.internal
+#
