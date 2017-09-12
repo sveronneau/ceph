@@ -13,7 +13,7 @@ data "template_file" "keystone-cloudinit" {
 resource "cloudca_instance" client-node {
    environment_id="${var.environment_id}"
    count="${var.client_count}"
-   name="student-${var.client_count}-client"
+   name="student-${count.index}-client"
    network_id="${var.network_id}"
    template="Ubuntu 16.04.02 HVM"
    compute_offering="1vCPU.4GB"
@@ -25,7 +25,7 @@ resource "cloudca_instance" client-node {
 resource "cloudca_instance" keystone-node {
    environment_id="${var.environment_id}"
    count="${var.client_count}"
-   name="student-${var.client_count}-keystone"
+   name="student-${count.index}-keystone"
    network_id="${var.network_id}"
    template="Ubuntu 16.04.02 HVM"
    compute_offering="2vCPU.4GB"
@@ -37,7 +37,7 @@ resource "cloudca_instance" keystone-node {
 resource "cloudca_instance" ceph-node {
    environment_id="${var.environment_id}"
    count="${var.node_count}"
-   name="student-${var.client_count}-ceph-${count.index}"
+   name="student-${count.index}-ceph-${count.index}"
    network_id="${var.network_id}"
    template="Ubuntu 16.04.02 HVM"
    compute_offering="2vCPU.8GB"
@@ -69,5 +69,3 @@ resource "cloudca_volume" ceph_osd3 {
    name="${element(cloudca_instance.ceph-node.*.name, count.index)}_OSD3"
    instance_id="${element(cloudca_instance.ceph-node.*.id, count.index)}"
 }
-
-                                 
