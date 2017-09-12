@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - copy:
+        src: ./student-hosts
+        dest: /etc/hosts
+    - copy:
+        src: /home/cca-user/.ssh/ceph_ws_students.key
+        dest: /home/cca-user/.ssh/ceph_ws_students.key
